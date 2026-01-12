@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)  
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)  
 
-![logo](img/logo.png)
+![logo](img_greedy/Greedy-gif-X9.gif)
 
 ## 📝 Project Description
 This project demonstrates **Reinforcement Learning** using **PPO (Proximal Policy Optimization)** in **Unity 3D** to train an AI agent to drive, navigate towards a target and catch coins.  
