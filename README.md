@@ -42,12 +42,12 @@ The AI agent uses a fully connected neural network trained with PPO:
 
 **Input & Output Structure:**
 <p align="center">
-  <img src="img_greedy/Capture%20d'écran%202026-01-10%20143620.png" alt="Neural Network Architecture - Input & Output" width="600">
+  <img src="img_greedy/Capture d’écran 2026-01-10 143620.png" alt="Neural Network Architecture - Input & Output" width="600">
 </p>
 
 **Layers & Constants:**
 <p align="center">
-  <img src="img_greedy/Capture%20d'écran%202026-01-10%20143642.png" alt="Neural Network Architecture - Layers & Constants" width="600">
+  <img src="img_greedy/Capture d’écran 2026-01-10 143642.png" alt="Neural Network Architecture - Layers & Constants" width="600">
 </p>
 
 ### Sensor System
@@ -74,8 +74,8 @@ After training, the agent efficiently drives towards its target using car-like c
 Custom Templar character model I created for this project (I wanted to create a model I can use for differente projects. I started with a chess pown, then a animal but I wanted a model without any need of movement so I made a Templar with different color to make team):
 
 <p align="center">
-  <img src="img_greedy/Templar_faceVF.jpg" alt="Templar Model - Front View" width="350">
-  <img src="img_greedy/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" width="350">
+  <img src="img_greedy/Templar_faceVF.jpg" alt="Templar Model - Front View" height="450">
+  <img src="img_greedy/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" height="450">
 </p>
 
 ---
