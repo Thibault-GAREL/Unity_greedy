@@ -35,19 +35,61 @@ The character learns walking or car-like movement (forward, backward, turn left,
 
 ---
 
+## 📊 Example Outputs
+
+### Neural Network Architecture
+The AI agent uses a fully connected neural network trained with PPO:
+
+**Input & Output Structure:**
+<p align="center">
+  <img src="img_greedy/Capture%20d'écran%202026-01-10%20143620.png" alt="Neural Network Architecture - Input & Output" width="600">
+</p>
+
+**Layers & Constants:**
+<p align="center">
+  <img src="img_greedy/Capture%20d'écran%202026-01-10%20143642.png" alt="Neural Network Architecture - Layers & Constants" width="600">
+</p>
+
+### Sensor System
+The agent uses ray-based sensors to perceive its environment and make moving decisions:
+
+<p align="center">
+  <img src="img_greedy/Greedy-gif-X9-perspective-sensor.gif" alt="Sensor Visualization" width="700">
+</p>
+
+### Trained Agent Performance
+After training, the agent efficiently drives towards its target using car-like controls:
+
+**Top-Down View:**
+<p align="center">
+  <img src="img_greedy/Greedy-gif-X9.gif" alt="Trained Agent - Top View" width="700">
+</p>
+
+**Perspective View:**
+<p align="center">
+  <img src="img_greedy/Greedy-gif-X9-perspective-opti.gif" alt="Trained Agent - Perspective View" width="700">
+</p>
+
+### 3D Character Model
+Custom Templar character model I created for this project (I wanted to create a model I can use for differente projects. I started with a chess pown, then a animal but I wanted a model without any need of movement so I made a Templar with different color to make team):
+
+<p align="center">
+  <img src="img_greedy/Templar_faceVF.jpg" alt="Templar Model - Front View" width="350">
+  <img src="img_greedy/Templar_perspectiveVF.jpg" alt="Templar Model - Perspective View" width="350">
+</p>
+
+---
+
 ## 🧠 Training Visualization
 
-The training process shows multiple parallel environments:
+The training process demonstrates reinforcement learning in action:
 - **Character agents** = AI-controlled entities learning to drive  
 - **Yellow spheres** = Target rewards to reach  
 - **Green platforms** = Successful episodes (goal reached in time)  
 - **Red platforms** = Failed episodes (timeout before reaching goal)
+- **Ray sensors** = Visual perception system helping the agent understand its surroundings
 
-Training in action:
-![Training Progress 1](img/image.png)
-
-Advanced training stage:
-![Training Progress 2](img/image.png)
+As training progresses, you'll observe more green platforms appearing, indicating improved performance and successful goal completions. The agent learns to use its sensors effectively to navigate towards targets while avoiding obstacles.
 
 ---
 
